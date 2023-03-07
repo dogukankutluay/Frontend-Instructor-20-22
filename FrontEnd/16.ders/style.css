@@ -1,0 +1,10 @@
+.fotograflar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between
+}
+.fotograflar img{
+    width: 48%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
