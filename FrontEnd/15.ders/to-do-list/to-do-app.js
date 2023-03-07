@@ -13,3 +13,4 @@
  * D => to do sileceğiz
  */
 console.log("selam");
+console.log("olcay")
