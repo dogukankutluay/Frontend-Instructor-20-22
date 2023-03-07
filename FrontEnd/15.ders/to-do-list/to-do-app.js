@@ -12,3 +12,4 @@
  * U => to do güncelleyeceğiz
  * D => to do sileceğiz
  */
+console.log("selam");
