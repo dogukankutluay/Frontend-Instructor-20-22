@@ -1,0 +1,15 @@
+{
+  "name": "17.ders",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "calistir": "node index.js"
+  },
+  "author": "frontend",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "object-to-style": "^1.0.5"
+  }
+}
