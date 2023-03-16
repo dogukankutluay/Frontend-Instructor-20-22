@@ -1,0 +1,157 @@
+/* devanagari */
+@font-face {
+    font-family: 'Poppins 400';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Poppins 400';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Poppins 400';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* devanagari */
+@font-face {
+    font-family: 'Poppins 600';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Poppins 600';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Poppins 600';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+.alan{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.sol{
+    background-color: #060925;
+    width: 50%;
+}
+.sag{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.golge-resmi{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    position: absolute;
+    top: 64px;
+    left: 80px;
+}
+.yazi-resmi{
+    position: absolute;
+    left: 80px;
+    top:525px;
+}
+
+.sag-alan{
+    width: 52%;
+}
+.sag-alan h2{
+    font-family: 'Poppins 600';
+    font-weight: bold;
+    font-size: 28px;
+    color: #101012;
+}
+.form-input-alani{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.form-input-alani span{
+    font-size: 16px;
+    color: #5A5A5D;
+    font-family: 'Poppins 400';
+    margin-bottom: 12px;
+}
+.form-input-alani input{
+    outline: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-right: 45px;
+    border-radius: 8px;
+    border: 1px solid #bebebf;
+    margin-bottom: 24px;
+    font-family: 'Poppins 400';
+    font-size: 14px;
+}
+.form-input-alani img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}   
+.butonlar{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 24px;
+    font-family: 'Poppins 600';
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.create-button{
+    background-color: #007DFA;
+}
+.google-login-button{
+    background-color: #E0EFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google-login-button img {
+    margin-right: 8px;
+}
