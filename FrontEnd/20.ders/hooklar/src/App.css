@@ -1,0 +1,11 @@
+.alan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh !important;
+    justify-content: center;
+}
+button{
+    padding: 15px;
+    border-radius: 10px;
+}
