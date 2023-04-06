@@ -1,0 +1,85 @@
+.header{
+}
+.header-dark{
+    height: 58px;
+    background-color: #252B42;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   padding: 0px 30px;
+}
+
+.contact{
+    display: flex;
+}
+.contact p{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.contact p img{
+    margin-right: 5.5px;
+}
+
+.social-media{
+   display: flex;
+}
+.social-media img{
+    margin: 0px 5px;
+}
+
+.header-light{
+    height: 58px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.logo-and-category{
+    display: flex;
+    align-items: center;
+}
+.category{
+    display: flex;
+    margin-left: 113px;
+}
+.category p {
+    margin-right: 15px;
+    color: #737373;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.category p img{
+    margin-left: 9px;
+}
+.actions{
+    display: flex;
+}
+.actions .buttons{
+    display: flex;
+    align-items: center;
+}
+.actions .text-buttons{
+    margin-right: 30px;
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.actions .text-buttons img{
+    margin-right: 10px;
+}
+.action-button{
+    margin-right: 15px;
+    display: flex;
+    color: #23A6F0;
+}
+.action-button img{
+    margin-right: 3px;
+}
