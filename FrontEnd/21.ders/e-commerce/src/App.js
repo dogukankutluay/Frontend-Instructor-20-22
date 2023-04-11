@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Clients from "./components/Clients";
-
+import ShopCards from "./components/ShopCards";
 import "./App.css";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Banner />
       <Clients />
+      <ShopCards />
     </div>
   );
 }
