@@ -50,20 +50,53 @@ const ProductsHeader = () => {
 };
 
 const ProductsContent = () => {
+  const productCards = [
+    {
+      image: card1,
+    },
+    {
+      image: card2,
+    },
+    {
+      image: card3,
+    },
+    {
+      image: card4,
+    },
+    {
+      image: card5,
+    },
+    {
+      image: card3,
+    },
+    {
+      image: card2,
+    },
+    {
+      image: card2,
+    },
+    {
+      image: card5,
+    },
+    {
+      image: card4,
+    },
+  ];
   return (
     <div className="products-content">
       <div className="products-wrapper">
-        <ProductsCard image={card1} />
-        <ProductsCard image={card2} />
-        <ProductsCard image={card3} />
-        <ProductsCard image={card4} />
-        <ProductsCard image={card5} />
-        <ProductsCard image={card3} />
-        <ProductsCard image={card1} />
-        <ProductsCard image={card2} />
-        <ProductsCard image={card5} />
-        <ProductsCard image={card4} />
+        {productCards.map((productCard) => (
+          <ProductsCard image={productCard.image} />
+        ))}
       </div>
+    </div>
+  );
+};
+
+const ProductsButton = () => {
+  return (
+    <div className="products-button">
+      <button>LOAD MORE PRODUCTS</button>
     </div>
   );
 };
@@ -72,6 +105,7 @@ const Products = () => {
     <section className="products-container">
       <ProductsHeader />
       <ProductsContent />
+      <ProductsButton />
     </section>
   );
 };

@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Clients from "./components/Clients";
 import ShopCards from "./components/ShopCards";
 import Products from "./components/Products";
+import ProductContent from "./components/ProductContent";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Clients />
       <ShopCards />
       <Products />
+      <ProductContent />
     </div>
   );
 }
