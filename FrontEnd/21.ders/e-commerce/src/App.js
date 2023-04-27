@@ -4,6 +4,7 @@ import Clients from "./components/Clients";
 import ShopCards from "./components/ShopCards";
 import Products from "./components/Products";
 import ProductContent from "./components/ProductContent";
+import Posts from "./components/Posts";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <ShopCards />
       <Products />
       <ProductContent />
+      <Posts />
     </div>
   );
 }

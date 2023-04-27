@@ -1,0 +1,75 @@
+.posts-container {
+}
+.posts-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.posts-header h6 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+.posts-header h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.posts-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  width: 38%;
+  height: 428px;
+  display: flex;
+}
+
+.post .image-section {
+  width: 40%;
+  background-color: yellow;
+  position: relative;
+}
+.image-section img {
+  width: 100%;
+}
+.image-section .sale {
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: white;
+  background-color: #e74040;
+  border-radius: 3px;
+  padding: 0px 10px;
+}
+.image-section .actions {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container {
+  background-color: white;
+  margin-right: 10px;
+  padding: 12px;
+  border-radius: 1000px;
+}
+.post .info-section {
+  width: 60%;
+}
